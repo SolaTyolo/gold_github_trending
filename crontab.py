@@ -1,5 +1,3 @@
-#/usr/bin/env python3
-
 import http.client
 import json
 import time
@@ -21,7 +19,7 @@ def gitCmd(date):
 
 def createMarkdown(date,filename,lang):
     with open(filename,'w') as f:
-        f.write("## " + lang + "周报\n")
+        f.write("## " + lang + "weekly\n")
 
 def writeMarkdown(data,filename):
     with open(filename,"a") as f:
