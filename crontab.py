@@ -87,7 +87,6 @@ def crontab():
     # 获取星期数
     weekday = strdate.weekday()
     date = strdate.strftime('%Y-%m-%d')
-    date = '2018-09-14'
     #根据星期来获取语言
     lang = ""
 
@@ -107,7 +106,6 @@ def crontab():
     if lang == "":
         print("exit")
         sys.exit(0)
-    lang = 'python'
 
     filename = './{lang}/{date}.md'.format(lang=lang,date=date)
 
