@@ -1,1 +1,0 @@
-/home/chentiantong/gold_github_trending/Python-3.6.2/Modules/_ctypes/libffi/include/ffi_common.h
